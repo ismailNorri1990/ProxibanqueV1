@@ -7,12 +7,4 @@ public class CarteVisaElectron extends Cartebanq {
 		// TODO Auto-generated constructor stub
 	}
 
-
-	
-	
-	
-	
-	
-	
-
 }

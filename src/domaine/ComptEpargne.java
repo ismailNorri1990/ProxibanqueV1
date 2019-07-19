@@ -3,10 +3,8 @@ package domaine;
 import java.time.LocalDate;
 
 public class ComptEpargne extends CompteBancaire {
-	
-	private int taux;
 
-	
+	private int taux;
 
 	public ComptEpargne(int codebanque, int solde, LocalDate dateouverture, int codecarte) {
 		super(codebanque, solde, dateouverture, codecarte);
@@ -20,7 +18,5 @@ public class ComptEpargne extends CompteBancaire {
 	public void setTaux(int taux) {
 		this.taux = taux;
 	}
-
-	
 
 }

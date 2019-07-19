@@ -3,13 +3,12 @@ package domaine;
 public class Cartebanq {
 	private int codecarte;
 	private boolean statut;
-	
 
 	public Cartebanq(int codecarte, boolean statut) {
 		super();
 		this.codecarte = codecarte;
 		this.statut = statut;
-		
+
 	}
 
 	public int getCodecarte() {
@@ -27,8 +26,5 @@ public class Cartebanq {
 	public void setStatut(boolean statut) {
 		this.statut = statut;
 	}
-
-
-
 
 }

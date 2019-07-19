@@ -12,5 +12,4 @@ public class Auditeur extends Personne {
 		// TODO Auto-generated constructor stub
 	}
 
-	
 }

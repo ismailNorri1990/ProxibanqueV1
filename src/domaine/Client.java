@@ -5,7 +5,6 @@ public class Client extends Personne {
 	private int codepostale;
 	private String ville;
 	private int codebanque;
-	
 
 	public Client(int id, String nom, String prenom, int telephone, String adresse, int codepostale, String ville,
 			int codebanque) {
@@ -63,5 +62,4 @@ public class Client extends Personne {
 		this.ville = ville;
 	}
 
-	
 }

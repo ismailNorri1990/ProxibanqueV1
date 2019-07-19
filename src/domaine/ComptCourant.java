@@ -2,9 +2,7 @@ package domaine;
 
 import java.time.LocalDate;
 
-public class ComptCourant extends CompteBancaire{
-	
-
+public class ComptCourant extends CompteBancaire {
 
 	public ComptCourant(int codebanque, int solde, LocalDate dateouverture, int codecarte) {
 		super(codebanque, solde, dateouverture, codecarte);
@@ -20,7 +18,5 @@ public class ComptCourant extends CompteBancaire{
 	public void setDecouvert(double decouvert) {
 		this.decouvert = decouvert;
 	}
-
-	
 
 }
